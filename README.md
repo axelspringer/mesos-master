@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.org/katallaxie/mesos-master.svg?branch=master)](https://travis-ci.org/katallaxie/mesos-master) [![Docker Stars](https://img.shields.io/docker/stars/pixelmilk/mesos-master.svg)](https://hub.docker.com/r/pixelmilk/mesos-master/) [![Docker Pulls](https://img.shields.io/docker/pulls/pixelmilk/mesos-master.svg)](https://hub.docker.com/r/pixelmilk/mesos/)
 
-# mesos
+# mesos-master
 
 Mesos
 
