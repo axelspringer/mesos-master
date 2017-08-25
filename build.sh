@@ -14,12 +14,6 @@ build() {
       --compress \
       -t pixelmilk/mesos-${ROLE}:${TAG} \
       . || exit $?
-
-# tag
-  echo
-  echo Tagging pixelmilk/mesos:${TAG}
-  docker tag pixelmilk/mesos pixelmilk/mesos:${TAG} \
-    || exit $?
 }
 
 # curl http://169.254.169.254/latest/meta-data/local-ipv4
