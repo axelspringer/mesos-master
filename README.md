@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/katallaxie/mesos-master.svg?branch=master)](https://travis-ci.org/katallaxie/mesos-master) [![Docker Stars](https://img.shields.io/docker/stars/pixelmilk/mesos-master.svg)](https://hub.docker.com/r/pixelmilk/mesos-master/) [![Docker Pulls](https://img.shields.io/docker/pulls/pixelmilk/mesos-master.svg)](https://hub.docker.com/r/pixelmilk/mesos/)
+[![Build Status](https://travis-ci.org/axelspringer/mesos-master.svg?branch=master)](https://travis-ci.org/axelspringer/mesos-master) [![Docker Stars](https://img.shields.io/docker/stars/axelspringer/mesos-master.svg)](https://hub.docker.com/r/axelspringer/mesos-master/) [![Docker Pulls](https://img.shields.io/docker/pulls/axelspringer/mesos-master.svg)](https://hub.docker.com/r/axelspringer/mesos/)
 
 # mesos-master
 
@@ -8,7 +8,7 @@ http://mesos.apache.org/
 
 # use
 
-[![](https://badge.imagelayers.io/katallaxie/mesos-master:1.3.1.svg)](https://imagelayers.io/?images=katallaxie/1.3.1)
+[![](https://badge.imagelayers.io/axelspringer/mesos-master:1.4.0.svg)](https://imagelayers.io/?images=axelspringer/mesos-master:1.4.0)
 
 > all mesos arguments are accessible via `MESOS_*` environment variables 
 
@@ -18,7 +18,7 @@ docker run -d \
 -e EC2_INSTANCE=true
 -e MESOS_QUORUM=2 \
 -e MESOS_ZK=zk://node-1:2181,node-2:2181,node-3:2181/mesos \
---name mesos-master --net host --restart always pixelmilk/mesos-master:1.3.1
+--name mesos-master --net host --restart always axelspringer/mesos-master:1.4.0
 ```
 
 Set environment variable `SECRET` to enable framework and slave authentication.
